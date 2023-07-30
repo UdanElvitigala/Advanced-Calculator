@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "title-font";
+    src: url(./src/fonts/Quicksand-Light.ttf);
+}
+
+body {
+    background: radial-gradient(circle at -14.3% -17.5%, rgb(245, 168, 168) 4%, rgb(164, 168, 248) 100.2%);
+    margin: 0vh;
+}
+html {
+    display: flex;
+    min-height: 100vh;
+}
+.calculator {
+    border-radius: 100;
+    margin-left: 7.5vw;
+}
+.title {
+    font-size: 6vh;
+    font-family: "title-font";
+    margin: 2vh;
+}
+.display-container {
+    background-color: black;
+    width: 85vw;
+    margin-top: 10vh;
+}
+.input-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: rgb(255, 240, 240);
+    font-size: 6vh;
+    height: 8vh;
+    margin-right: 5vw;
+}
+.output-container {
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(182, 180, 180);
+    font-size: 4vh;
+    min-height: 7vh;
+    margin-right: 5vw;
+}
+.input-pad {
+    display: grid;
+    width: 85vw;
+    grid-template-columns: repeat(4,auto);
+}
+.input-pad > button {
+    margin: 0vh;
+    height: 11vh;
+    width: 21.25vw;
+    font-size: 4vh;
+}
+
+@media screen and ( min-width : 415px ) {
+    
+}
