@@ -18,12 +18,17 @@ export default function Sidebar() {
                 
                 <Link to={"/"} className="w3-bar-item w3-button" > Standard Calculator </Link>
                 <Link to={"/scientific"} className="w3-bar-item w3-button"> Scientific Calculator </Link>
-                <Link to={"/converters"} className="w3-bar-item w3-button"> Unit Converters </Link>
+                
+                <div className="w3-bar-item">Converters
+                    <Link to={"/converter/units"} className="w3-bar-item w3-button"> Unit Converters </Link>
+                    <Link to={"/converter/quantity"} className="w3-bar-item w3-button"> Physical Quantity unit Converters </Link>
+                    <Link to={"/converter/dementions"} className="w3-bar-item w3-button"> Dementional Converters </Link>
+                </div>
                 <Link to={"/graphs"} className="w3-bar-item w3-button"> Graphs </Link>
             </div>
             
             <button className="w3-button w3-xlarge w3-left w3-hide-large"
-                    style={{ margin : "2vw" }}
+                    style={{ margin : "2vw", width : "10vw", marginRight : "5vw" }}
                     onClick={open}
             >&#9776;</button>
         </>
