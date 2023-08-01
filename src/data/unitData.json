@@ -1,0 +1,215 @@
+
+[
+    {     
+        "unit" : {
+            "id" : 0,
+            "name" : "Currency"
+        },
+        "submultipliers" : [
+            { "id" : 0 , "name" : "USD",    "quantity" : 1 },
+            { "id" : 1 , "name" : "Rupees", "quantity" : 356 },
+            { "id" : 2 , "name" : "Euro",   "quantity" : 3 },
+            { "id" : 3 , "name" : "YEN",    "quantity" : 6 }
+        ]
+    },
+    {   
+        "unit" : {
+            "id" : 1,
+            "name" : "Volume"
+        },
+        "submultipliers" : [
+            { "id" : 0 , "name" : "teraLiter", "quantity" : 0.000000000001 },
+            { "id" : 1 , "name" : "gigaLiter", "quantity" : 0.000000001 },
+            { "id" : 2 , "name" : "megaLiter", "quantity" : 0.000001 },
+            { "id" : 3 , "name" : "kiloLiter", "quantity" : 0.001 },
+            { "id" : 4 , "name" : "Liter",     "quantity" : 1 },
+            { "id" : 5 , "name" : "deciLiter", "quantity" : 10 },
+            { "id" : 6 , "name" : "centiLiter","quantity" : 100 },
+            { "id" : 7 , "name" : "miliLiter", "quantity" : 1000 },
+            { "id" : 8 , "name" : "microLiter","quantity" : 1000000 },
+            { "id" : 9 , "name" : "nanoLiter", "quantity" : 1000000000 },
+            { "id" : 10, "name" : "picoLiter", "quantity" : 1000000000000 }
+        ]
+    },
+    {
+        "unit" : {
+            "id" : 2,
+            "name" : "Length"
+        },
+        "submultipliers" : [
+            { "id" : 0 , "name" : "teraMeter", "quantity" : 0.000000000001 },
+            { "id" : 1 , "name" : "gigaMeter", "quantity" : 0.000000001 },
+            { "id" : 2 , "name" : "megaMeter", "quantity" : 0.000001 },
+            { "id" : 3 , "name" : "kiloMeter", "quantity" : 0.001 },
+            { "id" : 4 , "name" : "Meter",     "quantity" : 1 },
+            { "id" : 5 , "name" : "deciMeter", "quantity" : 10 },
+            { "id" : 6 , "name" : "centiMeter","quantity" : 100 },
+            { "id" : 7 , "name" : "miliMeter", "quantity" : 1000 },
+            { "id" : 8 , "name" : "microMeter","quantity" : 1000000 },
+            { "id" : 9 , "name" : "nanoMeter", "quantity" : 1000000000 },
+            { "id" : 10, "name" : "picoMeter", "quantity" : 1000000000000 }
+        ]
+   },
+    {
+        "unit" : {
+            "id" : 3,
+            "name" : "Weight"
+        },
+        "submultipliers" : [
+            { "id" : 0 , "name" : "teraGrams", "quantity" : 0.000000000001 },
+            { "id" : 1 , "name" : "gigaGrams", "quantity" : 0.000000001 },
+            { "id" : 2 , "name" : "megaGrams", "quantity" : 0.000001 },
+            { "id" : 3 , "name" : "kiloGrams", "quantity" : 0.001 },
+            { "id" : 4 , "name" : "Grams",     "quantity" : 1 },
+            { "id" : 5 , "name" : "deciGrams", "quantity" : 10 },
+            { "id" : 6 , "name" : "centiGrams","quantity" : 100 },
+            { "id" : 7 , "name" : "miliGrams", "quantity" : 1000 },
+            { "id" : 8 , "name" : "microGrams","quantity" : 1000000 },
+            { "id" : 9 , "name" : "nanoGrams", "quantity" : 1000000000 },
+            { "id" : 10, "name" : "picoGrams", "quantity" : 1000000000000 }
+        ]
+    },
+    {
+        "unit" : {
+            "id" : 4,
+            "name" : "Temperature"
+        },
+        "submultipliers" : [
+            { "id" : 0 , "name" : "terameter", "quantity" : 0.000000000001 },
+            { "id" : 1 , "name" : "gigameter", "quantity" : 0.000000001 },
+            { "id" : 2 , "name" : "megameter", "quantity" : 0.000001 },
+            { "id" : 3 , "name" : "kilometer", "quantity" : 0.001 },
+            { "id" : 4 , "name" : "meter",     "quantity" : 1 },
+            { "id" : 5 , "name" : "decimeter", "quantity" : 10 },
+            { "id" : 6 , "name" : "centimeter","quantity" : 100 },
+            { "id" : 7 , "name" : "milimeter", "quantity" : 1000 },
+            { "id" : 8 , "name" : "micrometer","quantity" : 1000000 },
+            { "id" : 9 , "name" : "nanometer", "quantity" : 1000000000 },
+            { "id" : 10, "name" : "picometer", "quantity" : 1000000000000 }
+        ]
+    },
+    {
+        "unit" : {
+            "id" : 5,
+            "name" : "Energy"
+        },
+        "submultipliers" : [
+            { "id" : 0 , "name" : "terameter", "quantity" : 0.000000000001 },
+            { "id" : 1 , "name" : "gigameter", "quantity" : 0.000000001 },
+            { "id" : 2 , "name" : "megameter", "quantity" : 0.000001 },
+            { "id" : 3 , "name" : "kilometer", "quantity" : 0.001 },
+            { "id" : 4 , "name" : "meter",     "quantity" : 1 },
+            { "id" : 5 , "name" : "decimeter", "quantity" : 10 },
+            { "id" : 6 , "name" : "centimeter","quantity" : 100 },
+            { "id" : 7 , "name" : "milimeter", "quantity" : 1000 },
+            { "id" : 8 , "name" : "micrometer","quantity" : 1000000 },
+            { "id" : 9 , "name" : "nanometer", "quantity" : 1000000000 },
+            { "id" : 10, "name" : "picometer", "quantity" : 1000000000000 }
+        ]
+    },
+    {
+        "unit" : {
+            "id" : 6,
+            "name" : "Area"
+        },
+        "submultipliers" : [
+            { "id" : 0 , "name" : "terameter", "quantity" : 0.000000000001 },
+            { "id" : 1 , "name" : "gigameter", "quantity" : 0.000000001 },
+            { "id" : 2 , "name" : "megameter", "quantity" : 0.000001 },
+            { "id" : 3 , "name" : "kilometer", "quantity" : 0.001 },
+            { "id" : 4 , "name" : "meter",     "quantity" : 1 },
+            { "id" : 5 , "name" : "decimeter", "quantity" : 10 },
+            { "id" : 6 , "name" : "centimeter","quantity" : 100 },
+            { "id" : 7 , "name" : "milimeter", "quantity" : 1000 },
+            { "id" : 8 , "name" : "micrometer","quantity" : 1000000 },
+            { "id" : 9 , "name" : "nanometer", "quantity" : 1000000000 },
+            { "id" : 10, "name" : "picometer", "quantity" : 1000000000000 }
+        ]
+    },
+    {
+        "unit" : {
+            "id" : 7,
+            "name" : "Speed"
+        },
+        "submultipliers" : [
+            { "id" : 0 , "name" : "terameter", "quantity" : 0.000000000001 },
+            { "id" : 1 , "name" : "gigameter", "quantity" : 0.000000001 },
+            { "id" : 2 , "name" : "megameter", "quantity" : 0.000001 },
+            { "id" : 3 , "name" : "kilometer", "quantity" : 0.001 },
+            { "id" : 4 , "name" : "meter",     "quantity" : 1 },
+            { "id" : 5 , "name" : "decimeter", "quantity" : 10 },
+            { "id" : 6 , "name" : "centimeter","quantity" : 100 },
+            { "id" : 7 , "name" : "milimeter", "quantity" : 1000 },
+            { "id" : 8 , "name" : "micrometer","quantity" : 1000000 },
+            { "id" : 9 , "name" : "nanometer", "quantity" : 1000000000 },
+            { "id" : 10, "name" : "picometer", "quantity" : 1000000000000 }
+        ]
+    },
+    {
+        "unit" : {
+            "id" : 8,
+            "name" : "Time"
+        },
+        "submultipliers" : [
+            { "id" : 0 , "name" : "terameter", "quantity" : 0.000000000001 },
+            { "id" : 1 , "name" : "gigameter", "quantity" : 0.000000001 },
+            { "id" : 2 , "name" : "megameter", "quantity" : 0.000001 },
+            { "id" : 3 , "name" : "kilometer", "quantity" : 0.001 },
+            { "id" : 4 , "name" : "meter",     "quantity" : 1 },
+            { "id" : 5 , "name" : "decimeter", "quantity" : 10 },
+            { "id" : 6 , "name" : "centimeter","quantity" : 100 },
+            { "id" : 7 , "name" : "milimeter", "quantity" : 1000 },
+            { "id" : 8 , "name" : "micrometer","quantity" : 1000000 },
+            { "id" : 9 , "name" : "nanometer", "quantity" : 1000000000 },
+            { "id" : 10, "name" : "picometer", "quantity" : 1000000000000 }
+        ]
+    },
+    {
+        "unit" : {
+            "id" : 9,
+            "name" : "Power"
+        },
+        "submultipliers" : [
+            { "id" : 0 , "name" : "terameter", "quantity" : 0.000000000001 },
+            { "id" : 1 , "name" : "gigameter", "quantity" : 0.000000001 },
+            { "id" : 2 , "name" : "megameter", "quantity" : 0.000001 },
+            { "id" : 3 , "name" : "kilometer", "quantity" : 0.001 },
+            { "id" : 4 , "name" : "meter",     "quantity" : 1 },
+            { "id" : 5 , "name" : "decimeter", "quantity" : 10 },
+            { "id" : 6 , "name" : "centimeter","quantity" : 100 },
+            { "id" : 7 , "name" : "milimeter", "quantity" : 1000 },
+            { "id" : 8 , "name" : "micrometer","quantity" : 1000000 },
+            { "id" : 9 , "name" : "nanometer", "quantity" : 1000000000 },
+            { "id" : 10, "name" : "picometer", "quantity" : 1000000000000 }
+        ]
+    },
+    {
+        "unit" : {
+            "id" : 10,
+            "name" : "Data"
+        },
+        "submultipliers" : [
+            { "id" : 0 , "name" : "terameter", "quantity" : 0.000000000001 },
+            { "id" : 1 , "name" : "gigameter", "quantity" : 0.000000001 },
+            { "id" : 2 , "name" : "megameter", "quantity" : 0.000001 },
+            { "id" : 3 , "name" : "kilometer", "quantity" : 0.001 },
+            { "id" : 4 , "name" : "meter",     "quantity" : 1 },
+            { "id" : 5 , "name" : "decimeter", "quantity" : 10 },
+            { "id" : 6 , "name" : "centimeter","quantity" : 100 },
+            { "id" : 7 , "name" : "milimeter", "quantity" : 1000 },
+            { "id" : 8 , "name" : "micrometer","quantity" : 1000000 },
+            { "id" : 9 , "name" : "nanometer", "quantity" : 1000000000 },
+            { "id" : 10, "name" : "picometer", "quantity" : 1000000000000 }
+        ]
+    },
+    {
+        "unit" : {
+            "id" : 11,
+            "name" : "Angle"
+        },
+        "submultipliers" : [
+            { "id" : 0 , "name" : "Degrees", "quantity" : 57 },
+            { "id" : 1 , "name" : "Radions", "quantity" : 1 }
+        ]
+    }
+]
