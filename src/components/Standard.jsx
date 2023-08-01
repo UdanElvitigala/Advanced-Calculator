@@ -1,15 +1,15 @@
 
 export default function Standard() {
     return (
-        <div className="calculator">
-            <div className="title">Mathematicor</div>
+        <div className="standard-calculator">
+            <div className="title" style={{ marginRight : 0 }}>Standard</div>
 
-            <div className="display-container">
-                <div className="input-container">100 + 20</div>
-                <div className="output-container">120</div>
+            <div className="standard-display-container"> 
+                <div className="standard-input-container">100 + 20</div>
+                <div className="standard-output-container">120</div>
             </div>
 
-            <div className="input-pad">
+            <div className="standard-input-pad">
                 <button >AC</button>
                 <button >( )</button>
                 <button >%</button>

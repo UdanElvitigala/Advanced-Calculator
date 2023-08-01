@@ -11,7 +11,7 @@ html {
     display: flex;
     min-height: 100vh;
 }
-.calculator {
+.standard-calculator {
     border-radius: 100;
     margin-left: 7.5vw;
 }
@@ -20,12 +20,17 @@ html {
     font-family: "title-font";
     margin: 2vh;
 }
-.display-container {
+.standard-display-container {
     background-color: black;
     width: 85vw;
     margin-top: 10vh;
 }
-.input-container {
+.scientific-display-container {
+    background-color: black;
+    width: 85vw;
+    margin-top: 3vh;
+}
+.standard-input-container {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -34,7 +39,7 @@ html {
     height: 8vh;
     margin-right: 5vw;
 }
-.output-container {
+.standard-output-container {
     display: flex;
     justify-content: flex-end;
     color: rgb(182, 180, 180);
@@ -42,16 +47,32 @@ html {
     min-height: 7vh;
     margin-right: 5vw;
 }
-.input-pad {
+.standard-input-pad {
     display: grid;
     width: 85vw;
     grid-template-columns: repeat(4,auto);
 }
-.input-pad > button {
+.standard-input-pad > button {
+    border-style: dashed;
     margin: 0vh;
     height: 11vh;
     width: 21.25vw;
-    font-size: 4vh;
+    font-size: 3vh;
+}
+.scientific-input-pad {
+    display: grid;
+    width: 80vw;
+    grid-template-columns: repeat(5,auto);
+}
+.scientific-input-pad > button {
+    border-style: dashed;
+    margin: 0vh;
+    height: 8vh;
+    width: 17vw;
+    font-size: 3vh;
+}
+.superscript {
+    font-size: 2vh;
 }
 
 @media screen and ( min-width : 415px ) {
