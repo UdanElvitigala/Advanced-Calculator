@@ -25,6 +25,7 @@ export default function Sidebar() {
                     <Link to={"/converter/dementions"} className="w3-bar-item w3-button"> Dementional Converters </Link>
                 </div>
                 <Link to={"/graphs"} className="w3-bar-item w3-button"> Graphs </Link>
+                <Link to={"/settings"} className="w3-bar-item w3-button"> Settings </Link>
             </div>
             
             <button className="w3-button w3-xlarge w3-left w3-hide-large"
